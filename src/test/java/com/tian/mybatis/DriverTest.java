@@ -10,9 +10,6 @@ public class DriverTest {
     }
 
 
-    public DriverTest(String aa) {
-    }
-
     @Test
     public void testDriver() throws SQLException {
         String url = "jdbc:mysql://172.16.3.6:3308/cap_control";
