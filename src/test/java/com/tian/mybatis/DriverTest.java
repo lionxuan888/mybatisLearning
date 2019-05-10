@@ -15,6 +15,7 @@ public class DriverTest {
         String url = "jdbc:mysql://172.16.3.6:3308/cap_control";
         String userName = "cap_control";
         String password = "cap_control_123";
+        System.out.println("hello");
 
         Connection connection = DriverManager.getConnection(url, userName, password);
 
